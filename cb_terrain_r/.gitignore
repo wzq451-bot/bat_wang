@@ -1,0 +1,9 @@
+.Rhistory
+.RData
+.Rproj.user/
+data/*
+reference/*
+results/*
+figures/*
+!data/README.md
+!reference/README.md

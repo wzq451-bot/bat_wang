@@ -1,0 +1,1 @@
+These are unchanged source snapshots documenting the original Python analysis. Their original relative input/output directory layout is preserved in the manuscript figure package, not in this reference-only subdirectory. Do not run them here as a substitute for run_all.R. Numerical reference CSVs were copied from the archived Python outputs.

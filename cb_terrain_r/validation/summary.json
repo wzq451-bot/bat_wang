@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "groups": 79,
+  "compared_entries_including_missing": 54961,
+  "absolute_tolerance": 1e-06,
+  "max_absolute_difference": 8.0542902092251e-07,
+  "documented_single_cluster_NA_corrections": 28,
+  "R": "4.3.3",
+  "jsonlite": "1.8.8",
+  "platform": "Ubuntu 24.04.3 x86_64",
+  "scope": "Archived analytical inputs to statistical results; original DEM and candidate generation not reproduced."
+}

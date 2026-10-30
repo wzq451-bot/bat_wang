@@ -1,0 +1,187 @@
+Selection M4_main_effects 
+Selection M5_interaction 
+Selection primary 
+Selection LOO_without_HQ223 
+Selection LOO_without_HQ224 
+Selection LOO_without_HQ225 
+Selection LOO_without_HQ226 
+Selection LOO_without_HQ227 
+Selection LOO_without_HQ228 
+Selection LOO_without_HQ229 
+Selection within_bat_AGL 
+Selection nonnegative_start_AGL 
+Selection valid_heights_both 
+Selection dt_le_2p5 
+Selection dt_gt_2p5 
+Selection clock_time_terrain_interactions 
+Selection before_midnight 
+Selection after_midnight 
+Selection individual_terrain_slopes 
+Selection individual_HQ223 
+Selection individual_HQ224 
+Selection individual_HQ225 
+Selection individual_HQ226 
+Selection individual_HQ227 
+Selection individual_HQ228 
+Selection individual_HQ229 
+Selection candidate_terrain_variation 
+                                output                column    n
+1                   vertical_refit.csv                  beta    2
+2                   vertical_refit.csv            cluster_se    2
+3                   vertical_refit.csv            cluster_lo    2
+4                   vertical_refit.csv            cluster_hi    2
+5                   vertical_refit.csv             cluster_p    2
+6                   vertical_refit.csv                     n    2
+7                   vertical_refit.csv                n_bats    2
+8                vertical_segments.csv                     n   21
+9                vertical_segments.csv                  beta   21
+10               vertical_segments.csv             ground_sd   21
+11                   vertical_null.csv           mean_SD_AGL 2000
+12                   vertical_null.csv           within_beta 2000
+13                 movement_checks.csv                  beta   46
+14                 movement_checks.csv            cluster_se   46
+15                 movement_checks.csv            cluster_lo   46
+16                 movement_checks.csv            cluster_hi   46
+17                 movement_checks.csv             cluster_p   46
+18                 movement_checks.csv                     n   46
+19                 movement_checks.csv                n_bats   46
+20                 movement_checks.csv                wild_p   46
+21               individual_slopes.csv                     n   14
+22               individual_slopes.csv                  beta   14
+23               shape_predictions.csv                   fit 3240
+24               shape_predictions.csv                    lo 3240
+25               shape_predictions.csv                    hi 3240
+26               shape_predictions.csv         response_mean 3240
+27               shape_predictions.csv           response_sd 3240
+28                      shape_bins.csv                   TRI   24
+29                      shape_bins.csv              adjusted   24
+30                      shape_bins.csv                     n   24
+31           activity_interactions.csv                  beta    9
+32           activity_interactions.csv            cluster_se    9
+33           activity_interactions.csv            cluster_lo    9
+34           activity_interactions.csv            cluster_hi    9
+35           activity_interactions.csv             cluster_p    9
+36            selection_comparison.csv                  beta  123
+37            selection_comparison.csv            cluster_se  123
+38            selection_comparison.csv         cluster_ci_lo  123
+39            selection_comparison.csv         cluster_ci_hi  123
+40            selection_comparison.csv           cluster_p_t  123
+41            selection_comparison.csv               n_steps  123
+42            selection_comparison.csv            n_clusters  123
+43            selection_comparison.csv                    se  123
+44            selection_comparison.csv              p_normal  123
+45            selection_comparison.csv                 ci_lo  123
+46            selection_comparison.csv                 ci_hi  123
+47            selection_comparison.csv                  beta   10
+48            selection_comparison.csv            cluster_se   10
+49            selection_comparison.csv         cluster_ci_lo   10
+50            selection_comparison.csv         cluster_ci_hi   10
+51            selection_comparison.csv           cluster_p_t   10
+52            selection_comparison.csv               n_steps   10
+53            selection_comparison.csv            n_clusters   10
+54            selection_comparison.csv                    se   10
+55            selection_comparison.csv              p_normal   10
+56            selection_comparison.csv                 ci_lo   10
+57            selection_comparison.csv                 ci_hi   10
+58 selection_prediction_comparison.csv            cond_slope   61
+59 selection_prediction_comparison.csv            cluster_se   61
+60 selection_prediction_comparison.csv         cluster_ci_lo   61
+61 selection_prediction_comparison.csv         cluster_ci_hi   61
+62       synchronized_window_audit.csv              duration 3062
+63       synchronized_window_audit.csv                 count 3062
+64       synchronized_window_audit.csv              mean_TRI 3062
+65       synchronized_window_audit.csv              coverage 3062
+66               candidate_support.csv                tpi_sd 3360
+67               candidate_support.csv              elev_min 3360
+68               candidate_support.csv              elev_max 3360
+69               candidate_support.csv               tpi_min 3360
+70               candidate_support.csv               tpi_max 3360
+71               candidate_support.csv            elev_range 3360
+72                        Table_S1.csv        filtered_fixes    7
+73                        Table_S1.csv        vertical_fixes    7
+74                        Table_S1.csv       selection_steps    7
+75                        Table_S1.csv      movement_records    7
+76                        Table_S1.csv           raw_records    7
+77                        Table_S1.csv    raw_dt_min_seconds    7
+78                        Table_S1.csv raw_dt_median_seconds    7
+79                        Table_S1.csv    raw_dt_max_seconds    7
+   max_absolute_difference tolerance documented_NA_corrections passed
+1    5.329070518200751e-15     1e-06                         0   TRUE
+2    1.373900992973631e-15     1e-06                         0   TRUE
+3    1.998401444325282e-15     1e-06                         0   TRUE
+4    8.437694987151190e-15     1e-06                         0   TRUE
+5    4.099639464710814e-18     1e-06                         0   TRUE
+6    0.000000000000000e+00     1e-06                         0   TRUE
+7    0.000000000000000e+00     1e-06                         0   TRUE
+8    0.000000000000000e+00     1e-06                         0   TRUE
+9    4.662936703425657e-15     1e-06                         0   TRUE
+10   4.547473508864641e-13     1e-06                         0   TRUE
+11   5.400124791776761e-13     1e-06                         0   TRUE
+12   1.998401444325282e-15     1e-06                         0   TRUE
+13   6.147859998861804e-15     1e-06                         0   TRUE
+14   1.051242426441945e-15     1e-06                         0   TRUE
+15   8.398230028072717e-15     1e-06                         0   TRUE
+16   3.580469254416130e-15     1e-06                         0   TRUE
+17   2.364775042451583e-14     1e-06                         0   TRUE
+18   0.000000000000000e+00     1e-06                         0   TRUE
+19   0.000000000000000e+00     1e-06                         0   TRUE
+20   0.000000000000000e+00     1e-06                         0   TRUE
+21   0.000000000000000e+00     1e-06                         0   TRUE
+22   1.137978600240785e-15     1e-06                         0   TRUE
+23   2.837730050941900e-13     1e-06                         0   TRUE
+24   5.133671265866724e-13     1e-06                         0   TRUE
+25   2.291500322826323e-13     1e-06                         0   TRUE
+26   8.881784197001252e-16     1e-06                         0   TRUE
+27   3.330669073875470e-16     1e-06                         0   TRUE
+28   4.263256414560601e-14     1e-06                         0   TRUE
+29   7.549516567451064e-15     1e-06                         0   TRUE
+30   0.000000000000000e+00     1e-06                         0   TRUE
+31   1.332267629550188e-15     1e-06                         0   TRUE
+32   2.220446049250313e-16     1e-06                         0   TRUE
+33   1.609823385706477e-15     1e-06                         0   TRUE
+34   1.797173521111972e-15     1e-06                         0   TRUE
+35   6.328271240363392e-15     1e-06                         0   TRUE
+36   2.137577520544554e-08     1e-06                         0   TRUE
+37   9.691059094096843e-09     1e-06                        28   TRUE
+38   3.780972024358675e-08     1e-06                         0   TRUE
+39   1.683195405277615e-08     1e-06                         0   TRUE
+40   3.091189715309639e-08     1e-06                         0   TRUE
+41   0.000000000000000e+00     1e-06                         0   TRUE
+42   0.000000000000000e+00     1e-06                         0   TRUE
+43   8.842993004520849e-10     1e-06                         0   TRUE
+44   8.493306458134953e-08     1e-06                         0   TRUE
+45   2.161191359206782e-08     1e-06                         0   TRUE
+46   2.113963271099806e-08     1e-06                         0   TRUE
+47   1.003878824512583e-07     1e-06                         0   TRUE
+48   8.882599544790537e-09     1e-06                         0   TRUE
+49   8.942506912745785e-08     1e-06                         0   TRUE
+50   1.113506967187483e-07     1e-06                         0   TRUE
+51   2.831891570131972e-07     1e-06                         0   TRUE
+52   0.000000000000000e+00     1e-06                         0   TRUE
+53   0.000000000000000e+00     1e-06                         0   TRUE
+54   4.181666124480898e-10     1e-06                         0   TRUE
+55   8.054290209225101e-07     1e-06                         0   TRUE
+56   1.012074741790769e-07     1e-06                         0   TRUE
+57   9.956829011281698e-08     1e-06                         0   TRUE
+58   2.040406163472674e-09     1e-06                         0   TRUE
+59   5.809939335188474e-11     1e-06                         0   TRUE
+60   2.182569763808928e-09     1e-06                         0   TRUE
+61   1.898242660280935e-09     1e-06                         0   TRUE
+62   5.329070518200751e-15     1e-06                         0   TRUE
+63   0.000000000000000e+00     1e-06                         0   TRUE
+64   4.831690603168681e-13     1e-06                         0   TRUE
+65   3.330669073875470e-16     1e-06                         0   TRUE
+66   6.394884621840902e-14     1e-06                         0   TRUE
+67   5.002220859751105e-12     1e-06                         0   TRUE
+68   5.002220859751105e-12     1e-06                         0   TRUE
+69   4.973799150320701e-13     1e-06                         0   TRUE
+70   4.973799150320701e-13     1e-06                         0   TRUE
+71   5.115907697472721e-13     1e-06                         0   TRUE
+72   0.000000000000000e+00     1e-06                         0   TRUE
+73   0.000000000000000e+00     1e-06                         0   TRUE
+74   0.000000000000000e+00     1e-06                         0   TRUE
+75   0.000000000000000e+00     1e-06                         0   TRUE
+76   0.000000000000000e+00     1e-06                         0   TRUE
+77   3.552713678800501e-15     1e-06                         0   TRUE
+78   0.000000000000000e+00     1e-06                         0   TRUE
+79   0.000000000000000e+00     1e-06                         0   TRUE
